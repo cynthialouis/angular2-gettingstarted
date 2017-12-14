@@ -5,9 +5,10 @@ import { Component } from '@angular/core';
   template: `
     <div>
       <h1>{{ pageTitle }}</h1>
+      <pm-products></pm-products>
     </div>    `
 })
 
 export class AppComponent {
-  pageTitle = 'Angular: Getting Started';
+  pageTitle = 'ACME Product Management';
 }
